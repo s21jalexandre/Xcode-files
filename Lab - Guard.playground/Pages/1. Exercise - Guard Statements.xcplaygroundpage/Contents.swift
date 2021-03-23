@@ -58,6 +58,9 @@ createUser()
 /*:
  Call the function you made above and capture the return value. Unwrap the `User` with standard optional binding and print a statement using each of its properties. 
  */
-
+var a=createUser()
+if let a = a{
+    print("\(a.age), \(a.firstName), \(a.lastName)")
+}
 
 //: page 1 of 2  |  [Next: App Exercise - Guard](@next)
